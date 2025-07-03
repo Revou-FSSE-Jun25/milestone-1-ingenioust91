@@ -4,33 +4,79 @@
     <meta charset="UTF-8" />
     <title>byIngeSalim</title>
     <style>
-        body {
+        .landing-page{
         background-image: url('/ASSET/LANDING\ PAGE.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;  
         background-size: cover;
+        display: block;
+        margin-top: -92px;
+        margin-left: -8px;
+        margin-right: -8px;
+        }
+
+        h1,h2{
+        font-family: montserrat;
+        font-weight: bold;
+        }
+
+        p{
+        display: inline;
+        padding-left: 25px;
+        padding-right: 25px;
+        background-color: black;
+        color:white;
+        border-radius: 50px
+        }
+
+        button{
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 50px;
+        background-color:#a9ff39;
+        color: black;
+        font-family: montserrat;
+        font-weight: bold;
+        font-size: 20pt;
+        border: none;
+        cursor: pointer;
+        }
+
+        .button1:hover {
+        background-color: white;
         }
 </style>
 </head>
 
 <body>
     <header>
-        
+        <nav style="font-family: montserrat; font-size: 15pt; text-align: center; padding-top: 20px;">
+                <a href="#home-section" style="padding-right: 30px; color:black">Home</a>
+                <a href="#profile-section" style="padding-right: 30px; color:black">Profile</a>
+                <a href="#portfolio-section" style="padding-right: 30px; color:black">Portfolio</a>
+                <a href="#contact-section" style="padding-right: 30px; color:black">Contact</a>
+            </nav>
     </header>
 
     <main>
-        <h1 style="font-family: montserrat; font-weight: bold; font-size: 45pt; text-align: center; padding-top: 200px;">We build
-            <p style="display: inline; padding-left: 25px; padding-right: 25px ;background-color: black; color:white; border-radius: 50px">DESIGN</p>
+        <div class="landing-page">
+        <h1 style="text-align: center; padding-top: 200px; font-size: 45pt;">We build
+            <p>DESIGN</p>
             <br>
             <p1>and</p1>
-            <p style="display: inline; padding-left: 25px; padding-right: 25px ;background-color: black; color:white; border-radius: 50px">DIGITAL</p>
+            <p>DIGITAL</p>
             <p1>solution</p1>
-
         </h1>
+
+        <h2 style="text-align: center; font-size: 20pt; padding-bottom: 200px;">Have any idea?
+            <button class="button button1" onclick="alert('Hello world!')">Start a Project</button>
+        </h2>
+        </div>
+
     </main>
 
     <footer>
-
+        <h1>CONTACT US!!</h1>
     </footer>
     
 </body>
