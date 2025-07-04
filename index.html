@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8" />
-    <title>byIngeSalim</title>
+    <title>byingesalim - Design and digital service</title>
+    <meta name="title" content="byingesalim - Design and digital service" />
+    <meta name="description" content="We offer professional graphic design services and custom website or app development to help your business stand out visually and digitally." />
+
     <style>
+        body{
+        font-family: montserrat; 
+        }
+
+        .our-service{
+        display: flex;
+        }
+
+        .our-service > div {
+        margin: 50px;
+        padding: 20px;
+        }
+
+        .border-service{
+        border-radius: 10px;
+        height: 100px;
+        padding: 20px;
+        }
+        
         .landing-page{
-        background-image: url('/milestone-1-ingenioust91/ASSET/LANDING\ PAGE.jpg');
+        background-image: url('/ASSET/LANDING\ PAGE.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;  
         background-size: cover;
@@ -15,9 +36,13 @@
         margin-right: -8px;
         }
 
-        h1,h2{
-        font-family: montserrat;
+        h1,h2, h3{
         font-weight: bold;
+        }
+
+        h4{
+           font-size: 18px; 
+           font-weight: normal;
         }
 
         p{
@@ -50,16 +75,17 @@
 
 <body>
     <header>
-        <nav style="font-family: montserrat; font-size: 15pt; text-align: center; padding-top: 20px;">
+        <nav style="font-size: 12pt; text-align: center; padding-top: 20px;">
                 <a href="#home-section" style="padding-right: 30px; color:black">Home</a>
-                <a href="#profile-section" style="padding-right: 30px; color:black">Profile</a>
-                <a href="#portfolio-section" style="padding-right: 30px; color:black">Portfolio</a>
+                <a href="#service-section" style="padding-right: 30px; color:black">Our Services</a>
+                <a href="#project-section" style="padding-right: 30px; color:black">Our Projects</a>
                 <a href="#contact-section" style="padding-right: 30px; color:black">Contact</a>
             </nav>
     </header>
 
     <main>
-        <div class="landing-page">
+<!---------------landing page--------------->
+        <header class="landing-page" name="landing-page">
         <h1 style="text-align: center; padding-top: 200px; font-size: 45pt;">We build
             <p>DESIGN</p>
             <br>
@@ -72,13 +98,55 @@
             <button class="button button1" onclick="alert('Hello world!')">Start a Project</button>
         </h2>
 
-        <h2 style="border 2px solid; padding: 20px; background-color: black;color: white; text-align: center">Graphic Design  •  Web Developer  •  Branding  •  Digital</h2>
+        <h3 style="border 2px solid; padding: 20px; background-color: black;color: white; text-align: center; font-size: 12pt;">Graphic Design • Website Development • Brand Identity • Mobile App Development</h3>
+    </header>
+<!---------------end of landing page--------------->
+
+
+<!---------------service section--------------->
+    <section id="service-section"></section>
+    <h4 style="text-align: center;">Our Services</h4>
+    <header class="our-service">
+        <div style="width: 400px;">
+            <h1 style="font-size: 20pt; margin-bottom: -20px;">Elevate your business</h1>
+            <h1 style="font-size: 20pt; margin-bottom: -10px">through our Solutions</h1>
+            <h4 style="font-size: 12pt;">Let’s make your brand stand out - our mission is to we make your business growth trough design and technology.</h4>
         </div>
+
+        <div>
+            <h3 class="border-service" style="background-color: #98bed7;">Brand Identity</h3>
+            <h3 class="border-service" style="background-color: #e4eaef;">Website Development</h3>        
+        </div>
+
+        <div>
+            <h3 class="border-service" style="background-color: #e1e5ea;">Graphic Design</h3>
+            <h3 class="border-service" style="background-color: #bcd7e8;">Mobile App Development</h3>
+        </div>
+    </header>
+<!---------------end of service section--------------->
+
+
+<!---------------project section--------------->
+    <section id="project-section"></section>
+    <h4 style="text-align: center;">Our Project</h4>
+    <header>
+        <h1 style="font-size: 20pt; margin-bottom: -20px; text-align: center;">Take a look at the latest project we’ve done</h1>
+    </header>
+<!---------------end of project section---------->
+
+<!---------------contact section--------------->
+    <section id="contact-section"></section>
+    <h4 style="text-align: center;">Contact Us</h4>
+    <header>
+        <h1 style="font-size: 20pt; margin-bottom: -20px; text-align: center;">Let's talk about your ideas!</h1>
+    </header>
+<!---------------end of contact section---------->
 
     </main>
 
     <footer>
-        <h1>CONTACT US!!</h1>
+        <hr style="height: 1px; border-width:0; background-color: gray">
+        <h4 style="text-align: center; font-size: 12px;">byingesalim - hello@byingesalim.com</h4>
     </footer>
     
 </body>
