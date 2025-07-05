@@ -10,19 +10,27 @@
         font-family: montserrat; 
         }
 
-        .our-service{
+        .myflex{
         display: flex;
+        justify-content: center;
         }
 
-        .our-service > div {
-        margin: 50px;
-        padding: 20px;
+        .myflex > div {
+        margin: 20px;
+        padding: 40px;
         }
 
         .border-service{
         border-radius: 10px;
         height: 100px;
         padding: 20px;
+        }
+
+        .border-project{
+        border-radius: 10px;
+        margin: 0;
+        border: 1px solid;
+        width:250px;
         }
         
         .landing-page{
@@ -106,19 +114,19 @@
 <!---------------service section--------------->
     <section id="service-section"></section>
     <h4 style="text-align: center;">Our Services</h4>
-    <header class="our-service">
-        <div style="width: 400px;">
+    <header class="myflex">
+        <div style="width: 450px; margin-top: 100px;">
             <h1 style="font-size: 20pt; margin-bottom: -20px;">Elevate your business</h1>
             <h1 style="font-size: 20pt; margin-bottom: -10px">through our Solutions</h1>
             <h4 style="font-size: 12pt;">Let’s make your brand stand out - our mission is to we make your business growth trough design and technology.</h4>
         </div>
 
-        <div>
+        <div style="width: 250px; padding: 10px; margin: 0;">
             <h3 class="border-service" style="background-color: #98bed7;">Brand Identity</h3>
             <h3 class="border-service" style="background-color: #e4eaef;">Website Development</h3>        
         </div>
 
-        <div>
+        <div style="width: 250px; padding: 10px; margin: 0;">
             <h3 class="border-service" style="background-color: #e1e5ea;">Graphic Design</h3>
             <h3 class="border-service" style="background-color: #bcd7e8;">Mobile App Development</h3>
         </div>
@@ -129,8 +137,28 @@
 <!---------------project section--------------->
     <section id="project-section"></section>
     <h4 style="text-align: center;">Our Project</h4>
-    <header>
-        <h1 style="font-size: 20pt; margin-bottom: -20px; text-align: center;">Take a look at the latest project we’ve done</h1>
+    <h1 style="font-size: 20pt; text-align: center;">Take a look at the latest project we’ve done</h1>
+    <header class="myflex">
+
+        <div class="border-project" style="padding:20px" name="project-desain-grafis">
+            <img src="/ASSET/PROJECT-1.jpg" style="width: 250px; align-items: center;" alt="packaging-wafer-selamat">
+            <h3>Selamat Chocolate Packaging Design</h3>
+            <h4>A festive and visually rich packaging concept created for Selamat's seasonal edition. A warm, indulgent color palette, the design celebrates tradition and flavor.</h4>
+        </div>
+
+        <div class="border-project" style="padding:20px" name="project-website-developer">
+            <img src="/ASSET/PROJECT-2.jpg" style="width: 250px; align-items: center;" alt="packaging-wafer-selamat">
+            <h3>LOGO JEANS E-Commerce Website Development</h3>
+            <h4>A modern and responsive e-commerce interface designed for LOGO Jeans, combining clean aesthetics with user-friendly navigation.</h4>
+        </div>
+
+        <div class="border-project" style="padding:20px" name="project-website-developer">
+            <img src="/ASSET/PROJECT-2.jpg" style="width: 250px; align-items: center;" alt="packaging-wafer-selamat">
+            <h3>LOGO JEANS E-Commerce Website Development</h3>
+            <h4>A modern and responsive e-commerce interface designed for LOGO Jeans, combining clean aesthetics with user-friendly navigation.</h4>
+        </div>
+        
+    
     </header>
 <!---------------end of project section---------->
 
