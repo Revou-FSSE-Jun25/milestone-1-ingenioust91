@@ -4,6 +4,11 @@
     <title>byingesalim - Design and digital service</title>
     <meta name="title" content="byingesalim - Design and digital service" />
     <meta name="description" content="We offer professional graphic design services and custom website or app development to help your business stand out visually and digitally." />
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Graphic Design, Website Development, Mobile App Development">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
         body{
@@ -30,7 +35,7 @@
         border-radius: 10px;
         margin: 0;
         border: 1px solid;
-        width:250px;
+        width:20%;
         }
         
         .landing-page{
@@ -49,8 +54,8 @@
         }
 
         h4{
-           font-size: 18px; 
-           font-weight: normal;
+        font-size: 18px; 
+        font-weight: normal;
         }
 
         p{
@@ -78,6 +83,18 @@
         .button1:hover {
         background-color: white;
         }
+
+        #cust-name, #cust-email, #cust-project{
+        font-family: montserrat; 
+        font-size: 18px;
+        background: none;
+        border: 0px;
+        width: 100%;
+        }
+
+        hr{height: 1px; border-width:0; background-color: gray}
+
+        @media screen and (max-width: 620px) {.myflex {width: 100%;}}
 </style>
 </head>
 
@@ -113,52 +130,57 @@
 
 <!---------------service section--------------->
     <section id="service-section"></section>
+    <br>
+    <br>
     <h4 style="text-align: center;">Our Services</h4>
     <header class="myflex">
-        <div style="width: 450px; margin-top: 100px;">
-            <h1 style="font-size: 20pt; margin-bottom: -20px;">Elevate your business</h1>
-            <h1 style="font-size: 20pt; margin-bottom: -10px">through our Solutions</h1>
-            <h4 style="font-size: 12pt;">Let’s make your brand stand out - our mission is to we make your business growth trough design and technology.</h4>
+        <div style="width: 50%; margin-top: 50px; margin-left: 90px;">
+            <h2 style="font-size: 20pt; margin-bottom: -15px;">Elevate your business</h2>
+            <h2 style="font-size: 20pt; margin-bottom: -10px">through our Solutions</h2>
+            <h4 style="font-size: 12pt;">Let’s make your brand stand out - our mission is to we make your business growth through design and technology.</h4>
         </div>
 
-        <div style="width: 250px; padding: 10px; margin: 0;">
+        <div style="width: 20%; padding: 10px; margin: 0;">
             <h3 class="border-service" style="background-color: #98bed7;">Brand Identity</h3>
             <h3 class="border-service" style="background-color: #e4eaef;">Website Development</h3>        
         </div>
 
-        <div style="width: 250px; padding: 10px; margin: 0;">
+        <div style="width: 20%; padding: 10px; margin: 0; margin-right: 140px;">
             <h3 class="border-service" style="background-color: #e1e5ea;">Graphic Design</h3>
             <h3 class="border-service" style="background-color: #bcd7e8;">Mobile App Development</h3>
         </div>
     </header>
+    <h4 style="text-align: center;">We turn your ideas into real, impactful <b>digital solutions.</b></h4>
+    <br>
+    <br>
+    <br>
+    <br>
 <!---------------end of service section--------------->
 
 
 <!---------------project section--------------->
     <section id="project-section"></section>
     <h4 style="text-align: center;">Our Project</h4>
-    <h1 style="font-size: 20pt; text-align: center;">Take a look at the latest project we’ve done</h1>
+    <h2 style="font-size: 20pt; text-align: center;">Take a look at the latest project we’ve done</h2>
     <header class="myflex">
 
         <div class="border-project" style="padding:20px" name="project-desain-grafis">
-            <img src="/ASSET/PROJECT-1.jpg" style="width: 250px; align-items: center;" alt="packaging-wafer-selamat">
+            <img src="/ASSET/PROJECT-1.jpg" style="width: 100%; align-items: center;" alt="packaging-wafer-selamat">
             <h3>Selamat Chocolate Packaging Design</h3>
             <h4>A festive and visually rich packaging concept created for Selamat's seasonal edition. A warm, indulgent color palette, the design celebrates tradition and flavor.</h4>
         </div>
 
         <div class="border-project" style="padding:20px" name="project-website-developer">
-            <img src="/ASSET/PROJECT-2.jpg" style="width: 250px; align-items: center;" alt="packaging-wafer-selamat">
+            <img src="/ASSET/PROJECT-2.jpg" style="width: 100%; align-items: center;" alt="LOGO-e-commerce-website">
             <h3>LOGO JEANS E-Commerce Website Development</h3>
             <h4>A modern and responsive e-commerce interface designed for LOGO Jeans, combining clean aesthetics with user-friendly navigation.</h4>
         </div>
 
-        <div class="border-project" style="padding:20px" name="project-website-developer">
-            <img src="/ASSET/PROJECT-2.jpg" style="width: 250px; align-items: center;" alt="packaging-wafer-selamat">
-            <h3>LOGO JEANS E-Commerce Website Development</h3>
-            <h4>A modern and responsive e-commerce interface designed for LOGO Jeans, combining clean aesthetics with user-friendly navigation.</h4>
+        <div class="border-project" style="padding:20px" name="project-app-developer">
+            <img src="/ASSET/PROJECT-3.jpg" style="width: 100%; align-items: center;" alt="HRCLINIC-mobile-app">
+            <h3>HR-Clinic Mobile App Development</h3>
+            <h4>A sleek and intuitive mobile app for HR consultation bookings. Modern layout, clear navigation, and responsive design ensure a seamless experience across all devices.</h4>
         </div>
-        
-    
     </header>
 <!---------------end of project section---------->
 
@@ -166,14 +188,34 @@
     <section id="contact-section"></section>
     <h4 style="text-align: center;">Contact Us</h4>
     <header>
-        <h1 style="font-size: 20pt; margin-bottom: -20px; text-align: center;">Let's talk about your ideas!</h1>
+        <h2 style="font-size: 20pt; margin-bottom: -20px; text-align: center;">Let's talk about your ideas!</h2>
+        <br><br>
+        <form id="form-contact" style="width: 50%; margin: 0 auto">
+            <input id="cust-name" type="text" placeholder="Name">
+            <br><hr>
+            <input id="cust-email" type="text" placeholder="Email">
+            <br><hr>
+            <input id="cust-project" type="text" placeholder="Tell me your project">
+            <br><hr>
+		    <h4>if you want to collaborate with me, you can send email!</h4>
+
+            <button type="button" id="submit-form">Send Message</button>
+        </form>
     </header>
+
+    <a href="https://www.instagram.com/ingesalim/" target="_blank" rel="noopener">
+    <i class="fa fa-instagram" style="font-size:40px; color: black;"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/inge-salim/" target="_blank" rel="noopener">
+    <i class="fa fa-linkedin-square" style="font-size:40px; color: black;"></i>
+    </a>
 <!---------------end of contact section---------->
 
     </main>
 
     <footer>
-        <hr style="height: 1px; border-width:0; background-color: gray">
+        <hr>
         <h4 style="text-align: center; font-size: 12px;">byingesalim - hello@byingesalim.com</h4>
     </footer>
     
