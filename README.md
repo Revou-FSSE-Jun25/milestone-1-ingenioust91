@@ -3,7 +3,7 @@
 
 ## Overview
 byingesalim is a portfolio website that offer professional graphic design services and custom website or app development to help your business stand out visually and digitally.
-This website is using HTML and css
+This website is build using HTML and css
 
 ## Website Navigation
 
@@ -13,10 +13,10 @@ This website is using HTML and css
 - [Contact](#contact-section)
 
 ## Home
-A main banner with CTA button link to contact us
+A main banner with CTA button linked to contact us
 
 ## Service
-A brief about what i can do for my clients
+A brief about who am i and what i can do for my clients
 
 ## Project
 A gallery of my latest project with descriptions
@@ -26,4 +26,4 @@ A filling form to start a project with me
 
 ## Live View
 * You can view the live website here:
-* * Feel free to reach me out via ingecendrawatisalim@gmail.com
+* Feel free to reach me out via ingecendrawatisalim@gmail.com
