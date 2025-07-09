@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="keywords" content="Graphic Design, Website Development, Mobile App Development">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="author" content="Inge Salim">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="favicon" href="/ASSET/favicon-byingesalim.png">
@@ -54,7 +55,7 @@
         font-weight: bold;
         }
 
-        h4{
+        .body-text{
         font-size: 18px; 
         font-weight: normal;
         }
@@ -102,10 +103,10 @@
 <body>
     <header>
         <nav style="font-size: 12pt; text-align: center; padding-top: 20px;">
-                <a href="#home-section" style="padding-right: 30px; color:black">Home</a>
-                <a href="#service-section" style="padding-right: 30px; color:black">Our Services</a>
-                <a href="#project-section" style="padding-right: 30px; color:black">Our Projects</a>
-                <a href="#contact-section" style="padding-right: 30px; color:black">Contact</a>
+                <a href="#home-section" style="padding-right: 30px; color:black" title="home section">Home</a>
+                <a href="#service-section" style="padding-right: 30px; color:black" title="service section">Our Services</a>
+                <a href="#project-section" style="padding-right: 30px; color:black" title="project section">Our Projects</a>
+                <a href="#contact-section" style="padding-right: 30px; color:black" title="contact section">Contact</a>
             </nav>
     </header>
 
@@ -133,11 +134,11 @@
     <section id="service-section"></section>
     <br>
     <br>
-    <h4 style="text-align: center;">Our Services</h4>
+    <h2 class="body-text" style="text-align: center;">Our Services</h2>
     <header class="myflex">
         <div style="width: 50%; margin-top: 10px; margin-left: 90px;">
             <h2 style="font-size: 20pt; margin-bottom: -15px;">Elevate your business</h2>
-            <h2 style="font-size: 20pt; margin-bottom: -10px">through our Solutions</h2>
+            <h3 style="font-size: 20pt; margin-bottom: -10px">through our Solutions</h3>
             <p style="font-size: 12pt;">byingesalim is a creative crew of designers, developers, and digital thinkers who turn bold ideas into beautiful realities. <br><br>Since 2013, we help businesses stand out and connect in the digital world from eye-catching brand visuals and graphics to sleek websites and mobile apps.</p>
         </div>
 
@@ -151,7 +152,7 @@
             <h3 class="border-service" style="background-color: #bcd7e8;">Mobile App Development</h3>
         </div>
     </header>
-    <h4 style="text-align: center;">We turn your ideas into real, impactful <b>digital solutions.</b></h4>
+    <h4 class="body-text" style="text-align: center;">We turn your ideas into real, impactful <b>digital solutions.</b></h4>
     <br>
     <br>
     <br>
@@ -161,46 +162,46 @@
 
 <!---------------project section--------------->
     <section id="project-section"></section>
-    <h4 style="text-align: center;">Our Project</h4>
+    <h2 class="body-text" style="text-align: center;">Our Project</h2>
     <h2 style="font-size: 20pt; text-align: center;">Take a look at the latest project we’ve done</h2>
     <header class="myflex">
 
         <div class="border-project" style="padding:20px" name="project-desain-grafis">
-            <img src="/ASSET/PROJECT-1.jpg" style="width: 100%; align-items: center;" alt="packaging-wafer-selamat">
+            <img src="/ASSET/PROJECT-1.jpg" style="width: 100%; align-items: center;" alt="packaging design wafer selamat" title="portfolio design bingesalim">
             <h3>Selamat Chocolate Packaging Design</h3>
-            <h4>A festive and visually rich packaging concept created for Selamat's seasonal edition. A warm, indulgent color palette, the design celebrates tradition and flavor.</h4>
+            <p>A festive and visually rich packaging concept created for Selamat's seasonal edition. A warm, indulgent color palette, the design celebrates tradition and flavor.</p>
         </div>
 
         <div class="border-project" style="padding:20px" name="project-website-developer">
-            <img src="/ASSET/PROJECT-2.jpg" style="width: 100%; align-items: center;" alt="LOGO-e-commerce-website">
+            <img src="/ASSET/PROJECT-2.jpg" style="width: 100%; align-items: center;" alt="LOGO e-commerce website" title="portfolio website bingesalim">
             <h3>LOGO JEANS E-Commerce Website Development</h3>
-            <h4>A modern and responsive e-commerce interface designed for LOGO Jeans, combining clean aesthetics with user-friendly navigation.</h4>
+            <p>A modern and responsive e-commerce interface designed for LOGO Jeans, combining clean aesthetics with user-friendly navigation.</p>
         </div>
 
         <div class="border-project" style="padding:20px" name="project-app-developer">
-            <img src="/ASSET/PROJECT-3.jpg" style="width: 100%; align-items: center;" alt="HRCLINIC-mobile-app">
+            <img src="/ASSET/PROJECT-3.jpg" style="width: 100%; align-items: center;" alt="HRCLINIC mobile app" title="portfolio mobile app bingesalim">
             <h3>HR-Clinic Mobile App Development</h3>
-            <h4>A sleek and intuitive mobile app for HR consultation bookings. Modern layout, clear navigation, and responsive design ensure a seamless experience across all devices.</h4>
+            <p>A sleek and intuitive mobile app for HR consultation bookings. Modern layout, clear navigation, and responsive design ensure a seamless experience across all devices.</p>
         </div>
     </header>
 <!---------------end of project section---------->
 
 <!---------------contact section--------------->
     <section id="contact-section"></section>
-    <h4 style="text-align: center;">Contact Us</h4>
+    <h2 class="body-text" style="text-align: center;">Contact Us</h2>
     <header>
         <h2 style="font-size: 20pt; margin-bottom: -20px; text-align: center;">Let's talk about your ideas!</h2>
         <br><br>
         <form id="form-contact" style="width: 50%; margin: 0 auto">
-            <input id="cust-name" type="text" placeholder="Name">
+            <input id="cust-name" type="text" placeholder="Name" required>
             <br><hr>
-            <input id="cust-email" type="text" placeholder="Email">
+            <input id="cust-email" type="text" placeholder="Email" required>
             <br><hr>
-            <input id="cust-project" type="text" placeholder="Tell me your project">
+            <input id="cust-project" type="text" placeholder="Tell me your project" required>
             <br><hr>
-		    <h4 style="text-align: center;">or if you want to collaborate with us, you can send us an email at hello@byingesalim.com</h4>
+		    <h4 class="body-text" style="text-align: center;">or if you want to collaborate with us, you can send us an email at hello@byingesalim.com</h4>
             
-            <button class="button button1" id="submit-form">Send Message</button>
+            <button class="button button1 myflex" id="submit-form" style="margin: auto;">Send Message</button>
         </form>
     </header>
     
@@ -213,13 +214,13 @@
         <h4 style="text-align: center; font-size: 12px; margin: 10px;">byingesalim - hello@byingesalim.com</h4>
         
         <div style="padding: 0; margin: 10px;">
-        <a href="https://www.instagram.com/ingesalim/" target="_blank" rel="noopener">
+        <a href="https://www.instagram.com/ingesalim/" target="_blank" rel="noopener"  title="instagram byingesalim">
         <i class="fa fa-instagram" style="font-size:20px; color: black;"></i>
         </a>
         </div>
 
         <div style="padding: 0; margin: 10px;">
-        <a href="https://www.linkedin.com/in/inge-salim/" target="_blank" rel="noopener">
+        <a href="https://www.linkedin.com/in/inge-salim/" target="_blank" rel="noopener" title="linkedin byingesalim">
         <i class="fa fa-linkedin-square" style="font-size:20px; color: black;"></i>
         </a>
         </div>
