@@ -22,7 +22,7 @@ This website using meta title, meta descriptions, and meta keywords.
 
 2. Headers : 
 This website has clear hierarchy of HTML elements maintained with appropriate use of headings.
-![SEO-2](https://i.imgur.com/FJYaOyI.jpeg)
+![SEO-2](https://i.imgur.com/puMyoVY.jpeg)
 
 3. Title for every link and image
 ![SEO-3](https://i.imgur.com/NoT5LJ6.jpeg) ![SEO-4](https://i.imgur.com/EFhyyWr.jpeg)
