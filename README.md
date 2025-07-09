@@ -16,11 +16,11 @@ Steps to deploy this webisite :
 5. Wait until deployment process done.
 
 # SEO support
-1. Meta
+1. Meta :
 This website using meta title, meta descriptions, and meta keywords.
 ![SEO-1](https://i.imgur.com/P21lDh0.jpeg)
 
-2. Headers
+2. Headers : 
 This website has clear hierarchy of HTML elements maintained with appropriate use of headings.
 ![SEO-2](https://i.imgur.com/FJYaOyI.jpeg)
 
