@@ -8,12 +8,13 @@ This is a portfolio website created by Inge Salim, build using HTML and deployed
 ## Deployment
 Steps to deploy this webisite :
 1. Go to repository https://github.com/Revou-FSSE-Jun25/milestone-1-ingenioust91
-2. Go to Settings on menu bar.
+2. Create a new fork to your repository.
+3. Go to Settings on menu bar.
 ![Deploy-1](https://i.imgur.com/8bjFOAM.jpeg)
-3. Go to Pages menu
-4. Deploy from branch, and select branch main. Click save.
+4. Go to Pages menu
+5. Deploy from branch, and select branch main. Click save.
 ![Deploy-2](https://i.imgur.com/moLYGEY.jpeg)
-5. Wait until deployment process done. You can see the process on Action menu bar
+6. Wait until deployment process done. You can see the process on Action menu bar.
 ![Deploy-3](https://i.imgur.com/KBzNj6B.jpeg)
 
 # SEO support
@@ -25,7 +26,7 @@ This website using meta title, meta descriptions, and meta keywords.
 This website has clear hierarchy of HTML elements maintained with appropriate use of headings.
 ![SEO-2](https://i.imgur.com/puMyoVY.jpeg)
 
-3. Title for every link and image
+3. Title for every link and image.
 ![SEO-3](https://i.imgur.com/NoT5LJ6.jpeg) ![SEO-4](https://i.imgur.com/EFhyyWr.jpeg)
 
 ## Website Navigation
@@ -54,5 +55,11 @@ A gallery of my latest project with descriptions. This section is made using fle
 A filling form to start a project with me. Every input is required.
 A Footer at the bottom of the page contains email and 2 social media icons that will be connected to external links.
 ![Contact](https://i.imgur.com/4eMTJON.jpeg)
+
+## UPDATES
+What will be updated on this website:
+* Responsive design - to provide an optimal viewing and user experience on mobile devices
+* Apply CSS to the website
+* Styling service, project and contact section
 
 **Feel free to reach me out via ingecendrawatisalim@gmail.com**
