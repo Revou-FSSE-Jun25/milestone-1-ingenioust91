@@ -13,7 +13,8 @@ Steps to deploy this webisite :
 3. Go to Pages menu
 4. Deploy from branch, and select branch main. Click save.
 ![Deploy-2](https://i.imgur.com/moLYGEY.jpeg)
-5. Wait until deployment process done.
+5. Wait until deployment process done. You can see the process on Action menu bar
+![Deploy-3](https://i.imgur.com/KBzNj6B.jpeg)
 
 # SEO support
 1. Meta :
@@ -52,6 +53,6 @@ A gallery of my latest project with descriptions. This section is made using fle
 ## Contact & Footer
 A filling form to start a project with me. Every input is required.
 A Footer at the bottom of the page contains email and 2 social media icons that will be connected to external links.
-![Contact](https://i.imgur.com/rvClpSW.jpeg)
+![Contact](https://i.imgur.com/4eMTJON.jpeg)
 
 **Feel free to reach me out via ingecendrawatisalim@gmail.com**
