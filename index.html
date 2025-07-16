@@ -12,105 +12,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="favicon" href="./ASSET/favicon-byingesalim.png">
 
+    <link rel="stylesheet" href="css/index.css">
+
     <style>
-        body{
-        font-family: montserrat; 
-        }
-
-        .myflex{
-        display: flex;
-        justify-content: center;
-        }
-
-        .myflex > div {
-        margin: 20px;
-        padding: 40px;
-        }
-
-        .border-service{
-        border-radius: 10px;
-        height: 100px;
-        padding: 20px;
-        }
-
-        .border-project{
-        border-radius: 10px;
-        margin: 0;
-        border: 1px solid;
-        width:20%;
-        }
-        
-        .landing-page{
-        background-image: url(./ASSET/LANDING\ PAGE.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;  
-        background-size: cover;
-        display: block;
-        margin-top: -87px;
-        margin-left: -8px;
-        margin-right: -8px;
-        }
-
-        h1,h2, h3{
-        font-weight: bold;
-        }
-
-        .body-text{
-        font-size: 18px; 
-        font-weight: normal;
-        }
-
-        .block-text{
-        display: inline;
-        padding-left: 25px;
-        padding-right: 25px;
-        background-color: black;
-        color:white;
-        border-radius: 50px
-        }
-
-        button{
-        padding-left: 15px;
-        padding-right: 15px;
-        border-radius: 50px;
-        background-color:#a9ff39;
-        color: black;
-        font-family: montserrat;
-        font-weight: bold;
-        font-size: 20pt;
-        border: none;
-        cursor: pointer;
-        }
-
-        .button1:hover {
-        background-color: white;
-        }
-
-        #cust-name, #cust-email, #cust-project{
-        font-family: montserrat; 
-        font-size: 18px;
-        background: none;
-        border: 0px;
-        width: 100%;
-        }
-
-        hr{height: 1px; border-width:0; background-color: gray}
-
-        @media screen and (max-width: 620px) {.myflex {width: 100%;}}
-</style>
+    </style>
 </head>
 
 <body>
-    <nav style="font-size: 12pt; text-align: center; padding-top: 20px;">
-        <a href="#home-section" style="padding-right: 30px; color:black" title="home section">Home</a>
-        <a href="#service-section" style="padding-right: 30px; color:black" title="service section">Our Services</a>
-        <a href="#project-section" style="padding-right: 30px; color:black" title="project section">Our Projects</a>
-        <a href="#contact-section" style="padding-right: 30px; color:black" title="contact section">Contact</a>
-    </nav>
-
     <!---------------header--------------->
+        <nav>
+        <a href="#home-section" title="home section">Home</a>
+        <a href="#service-section" title="service section">Our Services</a>
+        <a href="#project-section" title="project section">Our Projects</a>
+        <a href="#contact-section" title="contact section">Contact</a>
+    </nav>
+    
     <header class="landing-page" name="landing-page">
-        <h1 style="text-align: center; padding-top: 200px; font-size: 45pt;">We build
+        <h1>We build
             <span class="block-text">DESIGN</span>
             <br>
             and
@@ -118,91 +36,82 @@
             solution
         </h1>
 
-        <h2 style="text-align: center; font-size: 20pt; padding-bottom: 133px;">Have any idea?
+        <h2>Have any idea?
             <button class="button button1" onclick="location.href='#contact-section'">Start a Project</button>
         </h2>
 
-        <h3 style="padding: 20px; background-color: black;color: white; text-align: center; font-size: 12pt;">Graphic Design • Website Development • Brand Identity • Mobile App Development</h3>
+        <h3>Graphic Design • Website Development • Brand Identity • Mobile App Development</h3>
     </header>
 <!---------------end of header--------------->
 
 <main>
 <!---------------service section--------------->
     <section id="service-section">
-    <br>
-    <br>
-    <h2 class="body-text" style="text-align: center;">Our Services</h2>
+    <h2 class="body-text">Our Services</h2>
     <div class="myflex">
-        <div style="width: 50%; margin-top: 10px; margin-left: 90px;">
-            <h2 style="font-size: 20pt; margin-bottom: -15px;">Elevate your business</h2>
-            <h2 style="font-size: 20pt; margin-bottom: -10px">through our Solutions</h2>
-            <p style="font-size: 12pt;">byingesalim is a creative crew of designers, developers, and digital thinkers who turn bold ideas into beautiful realities. <br><br>Since 2013, we help businesses stand out and connect in the digital world from eye-catching brand visuals and graphics to sleek websites and mobile apps.</p>
+        <div class="service-1">
+            <h2>Elevate your business</h2>
+            <h2>through our Solutions</h2>
+            <p>byingesalim is a creative crew of designers, developers, and digital thinkers who turn bold ideas into beautiful realities. <br><br>Since 2013, we help businesses stand out and connect in the digital world from eye-catching brand visuals and graphics to sleek websites and mobile apps.</p>
         </div>
 
-        <div style="width: 20%; padding: 10px; margin: 0;">
+        <div class="service-2">
             <h3 class="border-service" style="background-color: #98bed7;">Brand Identity</h3>
-            <h3 class="border-service" style="background-color: #e4eaef;">Website Development</h3>        
+            <h3 class="border-service">Website Development</h3>        
         </div>
 
-        <div style="width: 20%; padding: 10px; margin: 0; margin-right: 140px;">
-            <h3 class="border-service" style="background-color: #e1e5ea;">Graphic Design</h3>
-            <h3 class="border-service" style="background-color: #bcd7e8;">Mobile App Development</h3>
+        <div class="service-2">
+            <h3 class="border-service">Graphic Design</h3>
+            <h3 class="border-service" style="background-color: #98bed7;">Mobile App Development</h3>
         </div>
     </div>
-    <h4 class="body-text" style="text-align: center;">We turn your ideas into real, impactful <b>digital solutions.</b></h4>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <h4 class="body-text">We turn your ideas into real, impactful <b>digital solutions.</b></h4>
     </section>
 <!---------------end of service section--------------->
 
 
 <!---------------project section--------------->
     <section id="project-section">
-    <br>
-    <h2 class="body-text" style="text-align: center;">Our Project</h2>
-    <h2 style="font-size: 20pt; text-align: center;">Take a look at the latest project we’ve done</h2>
+    <h2 class="body-text">Our Project</h2>
+    <h2>Take a look at the latest project we’ve done</h2>
     <div class="myflex">
-
-        <div class="border-project" style="padding:20px" name="project-desain-grafis">
-            <img src="./ASSET/PROJECT-1.jpg" style="width: 100%; align-items: center;" alt="packaging design wafer selamat" title="portfolio design bingesalim">
+        <div class="border-project" name="project-desain-grafis">
+            <img src="./asset/project-1.jpg" class="image-project" alt="packaging design wafer selamat" title="portfolio design bingesalim">
             <h3>Selamat Chocolate Packaging Design</h3>
             <p>A festive and visually rich packaging concept created for Selamat's seasonal edition. A warm, indulgent color palette, the design celebrates tradition and flavor.</p>
         </div>
 
-        <div class="border-project" style="padding:20px" name="project-website-developer">
-            <img src="./ASSET/PROJECT-2.jpg" style="width: 100%; align-items: center;" alt="LOGO e-commerce website" title="portfolio website bingesalim">
+        <div class="border-project" name="project-website-developer">
+            <img src="./asset/project-2.jpg" class="image-project" alt="LOGO e-commerce website" title="portfolio website bingesalim">
             <h3>LOGO JEANS E-Commerce Website Development</h3>
             <p>A modern and responsive e-commerce interface designed for LOGO Jeans, combining clean aesthetics with user-friendly navigation.</p>
         </div>
 
-        <div class="border-project" style="padding:20px" name="project-app-developer">
-            <img src="./ASSET/PROJECT-3.jpg" style="width: 100%; align-items: center;" alt="HRCLINIC mobile app" title="portfolio mobile app bingesalim">
+        <div class="border-project" name="project-app-developer">
+            <img src="./asset/project-3.jpg" class="image-project" alt="HRCLINIC mobile app" title="portfolio mobile app bingesalim">
             <h3>HR-Clinic Mobile App Development</h3>
             <p>A sleek and intuitive mobile app for HR consultation bookings. Modern layout, clear navigation, and responsive design ensure a seamless experience across all devices.</p>
         </div>
     </div>
     </section>
-<!---------------end of project section---------->
+<!-- ---------------end of project section---------- -->
 
-<!---------------contact section--------------->
+<!-- ---------------contact section--------------- -->
     <section id="contact-section">
-    <h2 class="body-text" style="text-align: center;">Contact Us</h2>
-        <h2 style="font-size: 20pt; margin-bottom: -20px; text-align: center;">Let's talk about your ideas!</h2>
+    <h2 class="body-text">Contact Us</h2>
+        <h2>Let's talk about your ideas!</h2>
         <br><br>
         <form id="form-contact" style="width: 50%; margin: 0 auto">
             <label for="name"><b>Name : </b></label>
-            <input id="cust-name" type="text" style="font-size: 10pt" placeholder="What should we call you?" required>
+            <input id="cust-name" type="text" placeholder="What should we call you?" required>
             <br><hr>
             <label for="email"><b>Email : </b></label>
-            <input id="cust-email" type="text" style="font-size: 10pt" placeholder="So we can get back to you 🙂" required>
+            <input id="cust-email" type="text" placeholder="So we can get back to you 🙂" required>
             <br><hr>
             <label for="project"><b>Message : </b></label>
-            <input id="cust-project" type="text" style="font-size: 10pt" placeholder="Tell us what’s on your mind, or what you’d love to build!" required>
+            <input id="cust-project" type="text" placeholder="Tell us what’s on your mind, or what you’d love to build!" required>
             <br><hr>
-		    <h3 class="body-text" style="text-align: center;">or if you want to collaborate with us, you can send us an email at hello@byingesalim.com</h3>
+		    <h3 class="body-text">or if you want to collaborate with us, you can send us an email at hello@byingesalim.com</h3>
             
             <button class="button button1 myflex" id="submit-form" style="margin: auto;">Send Message</button>
         </form>
