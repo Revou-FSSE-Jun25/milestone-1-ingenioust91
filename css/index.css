@@ -1,6 +1,13 @@
         body{
         font-family: montserrat; 
         margin: 0;
+        padding: 0;
+        background-image: url('https://raw.githubusercontent.com/Revou-FSSE-Jun25/milestone-1-ingenioust91/refs/heads/main/ASSET/background.png'); 
+        background-size: cover;
+        }
+
+        @media only screen and (max-width: 600px) {
+
         }
 
         .myflex{
@@ -12,33 +19,62 @@
         margin: 20px;
         padding: 40px;
         }
-        
-        .landing-page{
-        background-image: url(/asset/landing-page-image.jpg);
-        margin-top: -79px;
+
+        /* css for landing page */
+        .landing-page {
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 90% 10%;
         }
 
+        .navigation-bar {
+            position: fixed;
+            height : 10%;
+            width: 100%;
+            background-color: white;
+        }
+    
         nav {
-            font-size: 12pt; text-align: center; padding-top: 20px
+            font-size: clamp(0.9rem, 0.7rem + 0.5vw, 1.25rem);
+            text-align: center;
         }
 
         nav a {
-            padding-right: 30px; color:black
+            padding-right: 30px;
+            color:black
+        }
+
+        header .main-banner {
+            align-content: center;
+            margin-left: 10%;
+            margin-right: 10%;
         }
 
         h1 {
-            text-align: center; padding-top: 200px; font-size: 3.75rem; font-weight: bold;
+            text-align: center;
+            font-size: clamp(1.8rem, 1.2rem + 3.2vw, 3.75rem);
+            font-weight: bold;
         }
 
         header h2 {
-            text-align: center; font-size: 1.667rem; padding-bottom: 133px; font-weight: bold;
+            text-align: center;
+            font-size: clamp(1rem, 0.85rem + 1vw, 1.6rem);
+            font-weight: bold;
         }
 
         header h3 {
-            padding: 20px; background-color: black;color: white; text-align: center; font-size: 1rem; font-weight: bold;
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-size: clamp(0.6rem, 0.5rem + 0.6vw, 1rem);
+            font-weight: bold;
+            margin: 0;
+            align-content: center;
         }
 
-        p {font-size: 1rem}
+        /* end of css for landing page */
+
+        p {font-size: clamp(0.6rem, 0.5rem + 0.6vw, 1rem);}
 
         .block-text{
         display: inline;
@@ -57,7 +93,7 @@
         color: black;
         font-family: montserrat;
         font-weight: bold;
-        font-size: 1.667rem;
+        font-size: clamp(1rem, 0.85rem + 1vw, 1.6rem);
         border: none;
         cursor: pointer;
         }
