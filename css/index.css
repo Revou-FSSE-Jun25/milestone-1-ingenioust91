@@ -4,24 +4,47 @@
         padding: 0;
         background-image: url('https://raw.githubusercontent.com/Revou-FSSE-Jun25/milestone-1-ingenioust91/refs/heads/main/ASSET/background.png'); 
         background-size: cover;
+        background-repeat: no-repeat;
     }
 
 /* -------------css for landing page------------*/
     .navigation-bar {
         position: fixed;
-        height : 7%;
+        height : 10%;
         width: 100%;
         background-color: rgba(255, 255, 255, 0);
+        box-shadow: none;
+        display: grid;
+        grid-template-columns: 15% 60% 15%;
         align-content: center;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .navigation-bar.solid {
+        background-color: rgba(255, 255, 255);
+        box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .navigation-bar .logo {
+        justify-self: left;
+        height: 2rem;
+    }
+
+    .navigation-bar .hamburger {
+        visibility:hidden;
+        height: 2rem;
+        justify-self: end;
     }
     
     .navigation-bar nav {
         display: flex;
         justify-content: center;
-        font-size: clamp(0.9rem, 0.7rem + 0.5vw, 1.25rem);
+        align-items: center;
     }
 
     nav a {
+        font-size: clamp(0.9rem, 0.7rem + 0.5vw, 1.25rem);
         padding-right: 30px;
         color:black;
         text-decoration: none;
@@ -62,11 +85,6 @@
     }
 
 /*-------------end of css for landing page-------------*/
-
-    /* .myflex{
-        display: flex;
-        justify-content: center;
-    } */
 
     p { font-size: clamp(0.6rem, 0.75rem + 0.6vw, 1rem);}
 
@@ -208,7 +226,7 @@
         height: 75%; 
         display: flex;
         flex-wrap: wrap;
-        column-gap: 2%;
+        gap: 2%;
     }
 
     .border-project{
@@ -263,12 +281,16 @@
 
 @media only screen and (max-width: 992px) {
 /* css for landing page */
+    .navigation-bar .hamburger {
+        visibility:visible;
+    }
+
     header h1, header h2 {
     text-align: start;
     }
 
     .navigation-bar nav {
-        flex-direction: column;
+        visibility: hidden;
     }
 
 /* css for service section */
@@ -298,7 +320,7 @@
 
     .project-flex {
         height: 100%;
-        row-gap: 2%;
+        /* row-gap: 2%; */
         justify-content: center;
     }
 
@@ -314,7 +336,7 @@
 
     .project-flex {
         height: 100%;
-        row-gap: 2%;
+        /* row-gap: 2%; */
         justify-content: center;
     }
 
