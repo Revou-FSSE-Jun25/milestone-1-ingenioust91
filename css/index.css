@@ -11,7 +11,7 @@
         position: fixed;
         height : 7%;
         width: 100%;
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0);
         align-content: center;
     }
     
@@ -118,7 +118,7 @@
     }
 
     .service-grid {
-        height: 90%;
+        height: 100%;
         display: grid;
         grid-template-rows: 25% 25% 25% 25%;
         grid-template-columns: 50% 25% 25%;
@@ -177,33 +177,71 @@
         width: 30%;
     }
 
+    #service-section h4 {
+        height: 10%;
+        margin: 0;
+    }
+
 /* ---------------end of CSS for service section--------------- */
 
 /* ---------------CSS for project section--------------- */
     #project-section {
         height: 100dvh;
-        display: grid;
-        grid-template-rows: 5% 10% 85%;
+        display: flex;
+        margin-left: 15%;
+        margin-right: 15%;
+        justify-content: center;
+        flex-direction: column;
     }
 
-    #project-section .myflex {
-        padding: 1%;
+    #project-section h2 {
+        height: 15%;
+        margin: 0;
+        align-content: center;
+    }
+
+    .project-flex {
+        /* height: 75%;  */
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 2%;
+        row-gap: 2%;
     }
 
     .border-project{
-        border-radius: 10px;
-        border: 1px solid;
-        width:20%;
+        flex: 1 1 0;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+        overflow: hidden;
+        padding-bottom: 2%;
+    }
+
+    .border-project p,
+    .border-project h3,
+    .border-project a {
+        padding-left: 8%;
+        padding-right: 8%;
+        text-align: center;
+        display: block;
     }
 
     .image-project {
         width: 100%;
-        align-items: center;
+        height: auto;
+        display: block;
+        object-fit: cover;
     }
 
 /* ---------------end of CSS for project section--------------- */
 
 /* ---------------CSS for contact section--------------- */
+    #contact-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }    
+
     #cust-name, #cust-email, #cust-project{
         font-family: montserrat; 
         font-size: 10pt;
@@ -240,7 +278,11 @@
         grid-row: 1/2;
     }
 
-        
+    .border-project {
+        min-width: 40vw;
     }
 
+        
 }
+
+
