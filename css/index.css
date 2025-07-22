@@ -201,10 +201,11 @@
     }
 
     .project-flex {
-        /* height: 75%;  */
+        height: 75%; 
         display: flex;
         flex-wrap: wrap;
         column-gap: 2%;
+
     }
 
     .border-project{
@@ -213,7 +214,6 @@
         background-color: white;
         box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
         overflow: hidden;
-        padding-bottom: 2%;
     }
 
     .border-project p,
@@ -252,6 +252,11 @@
     hr{ height: 1px; border-width:0; background-color: gray}
 
 /* ---------------end of CSS for contact section--------------- */
+
+.footer-flex {
+    display: flex;
+    justify-content: center;
+}
 
 @media only screen and (max-width: 600px) {
 /* css for landing page */
