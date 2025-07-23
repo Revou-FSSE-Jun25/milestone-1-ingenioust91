@@ -6,7 +6,7 @@ You can view the live website [here](https://revou-fsse-jun25.github.io/mileston
 This is a portfolio website created by Inge Salim, build using HTML and deployed using github.
 
 ## Deployment
-Steps to deploy this webisite :
+Steps to deploy this webisite via github:
 1. Go to repository https://github.com/Revou-FSSE-Jun25/milestone-1-ingenioust91
 2. Create a new fork to your repository.
 3. Go to Settings on menu bar.
