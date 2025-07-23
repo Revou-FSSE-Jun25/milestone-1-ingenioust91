@@ -29,11 +29,21 @@
             <a href="#contact-section" title="contact section">Contact</a>
         </nav>
 
-        <img src="./asset/hamburger.png" class="hamburger" alt="hamburger" title="hamburger">
+        <img src="./asset/hamburger.png" class="hamburger" alt="hamburger" title="hamburger" onclick="openNav()">
 
     </div>
 
-    <header class="landing-page" name="landing-page">
+    <div id="navigation-mobile">
+        <ul>
+            <li><a href="#home-section" title="home section">Home</a></li>
+            <li><a href="#service-section" title="service section">Our Services</a></li>
+            <li><a href="#project-section" title="project section">Our Projects</a></li>
+            <li><a href="#contact-section" title="contact section">Contact</a></li>
+        </ul>
+        <p class="closebutton" onclick="closeNav()">X</a>
+    </div>
+
+    <header class="landing-page" name="landing-page" id="home-section"> 
         <div class="main-banner">
         <h1>We build
             <span class="block-text">DESIGN</span>
@@ -125,21 +135,21 @@
 
 <!-- ---------------contact section--------------- -->
     <section id="contact-section">
-    <h2 class="body-text">Contact Us</h2>
+        <h2 class="body-text">Contact Us</h2>
         <h2>Let's talk about your ideas!</h2>
-        <form id="form-contact" style="width: 50%; margin: 0 auto">
+        <form id="form-contact">
             <label for="name"><b>Name : </b></label>
             <input id="cust-name" type="text" placeholder="What should we call you?" required>
             <br><hr>
             <label for="email"><b>Email : </b></label>
-            <input id="cust-email" type="text" placeholder="So we can get back to you 🙂" required>
+            <input id="cust-email" type="email" placeholder="So we can get back to you 🙂" required>
             <br><hr>
             <label for="project"><b>Message : </b></label>
-            <input id="cust-project" type="text" placeholder="Tell us what’s on your mind, or what you’d love to build!" required>
+            <input id="cust-project" type="" placeholder="Tell us what’s on your mind, or what you’d love to build!" required>
             <br><hr>
-		    <h3 class="body-text">or if you want to collaborate with us, you can send us an email at hello@byingesalim.com</h3>
+		    <h3 class="body-text">or if you want to collaborate with us, you can send us an email at <b>hello@byingesalim.com</b></h3>
         </form>
-    <button class="button button1" id="submit-form" style="margin: auto;">Send Message</button>
+    <button class="button button1" id="submit-form">Send Message</button>
 
     </section>
     
@@ -149,19 +159,19 @@
 
     <hr>
     <footer class="footer-flex">
-        <h4 style="text-align: center; font-size: 12px; margin: 10px;">byingesalim - hello@byingesalim.com</h4>
+        <h4>byingesalim - hello@byingesalim.com</h4>
         
-        <div style="padding: 0; margin: 10px;">
-        <a href="https://www.instagram.com/ingesalim/" target="_blank" rel="noopener"  title="instagram byingesalim">
-        <i class="fa fa-instagram" style="font-size:20px; color: black;"></i>
-        </a>
-        </div>
+        <section class="social-media">
+            <a href="https://www.instagram.com/ingesalim/" target="_blank" rel="noopener"  title="instagram byingesalim">
+            <i class="fa fa-instagram"></i>
+            </a>
+        </section>
 
-        <div style="padding: 0; margin: 10px;">
-        <a href="https://www.linkedin.com/in/inge-salim/" target="_blank" rel="noopener" title="linkedin byingesalim">
-        <i class="fa fa-linkedin-square" style="font-size:20px; color: black;"></i>
-        </a>
-        </div>
+        <section class="social-media">
+            <a href="https://www.linkedin.com/in/inge-salim/" target="_blank" rel="noopener" title="linkedin byingesalim">
+            <i class="fa fa-linkedin-square"></i>
+            </a>
+        </section>
     </footer>
     
 </body>
