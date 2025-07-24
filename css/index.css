@@ -370,11 +370,6 @@ footer i {
         overflow: hidden;
         margin-left: 10%;
         margin-right: 10%;
-        margin-top: 10%;
-    }
-
-    #project-section h2 {
-        margin-bottom: 5%;
     }
 
     .border-project {
@@ -384,6 +379,7 @@ footer i {
     }
 
     .project-flex {
+        height: 50%;
         justify-content: center;
         width: max-content; /* biar fleksibel */
         animation: slideX 12s linear infinite;
@@ -416,8 +412,12 @@ footer i {
         min-width: 40vw;
     }
 
+    #project-section h2 {
+        margin-bottom: 5%;
+    }
+
     .project-flex {
-        height: 100%;
+        height: 50%;
         /* row-gap: 2%; */
         justify-content: center;
     }
