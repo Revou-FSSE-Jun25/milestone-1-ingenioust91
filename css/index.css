@@ -54,7 +54,7 @@
         display: flex;
         justify-content: space-between;
         position: fixed;
-        top: 10vh;
+        top: 10vdh;
         height : 20%;
         width: 100%;
         background-color: rgba(255, 255, 255);
@@ -302,6 +302,10 @@
 
     hr{ height: 1px; border-width:0; background-color: gray}
 
+    #submit-form {
+        display: flex;
+    }
+
 /* ---------------end of CSS for contact section--------------- */
 
 /* ---------------CSS for footer--------------- */
@@ -324,15 +328,16 @@ footer i {
 
 /* ---------------end of CSS for footer--------------- */
 
+/* ---------------responsive CSS--------------- */
 @media only screen and (max-width: 992px) {
-
-    #navigation-mobile{
-        visibility: hidden;
-    }
 
 /* css for landing page */
     .navigation-bar .hamburger {
         visibility:visible;
+    }
+
+    #navigation-mobile{
+        visibility: hidden;
     }
 
     header h1, header h2 {
@@ -361,6 +366,7 @@ footer i {
 /* css for project section */
     #project-section {
         height: auto;
+        overflow: hidden;
     }
 
     .border-project {
@@ -369,12 +375,31 @@ footer i {
     }
 
     .project-flex {
-        height: 100%;
-        /* row-gap: 2%; */
+        /* height: 100%;
+        row-gap: 2%; */
         justify-content: center;
+        width: max-content; /* biar fleksibel */
+        animation: slideX 12s linear infinite;
     }
 
-    
+    /* .border-project:nth-child(2) {
+        display: none;
+    }
+
+    .border-project:nth-child(3) {
+        display: none;
+    }     */
+
+    @keyframes slideX {
+  0%   { transform: translateX(0); }
+  33%  { transform: translateX(0); }
+
+  34%  { transform: translateX(-30%); }
+  66%  { transform: translateX(-30%); }
+
+  67%  { transform: translateX(-60%); }
+  100%  { transform: translateX(-60%); }
+}
         
 }
 
