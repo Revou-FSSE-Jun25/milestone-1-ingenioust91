@@ -396,11 +396,11 @@ footer i {
   0%   { transform: translateX(0); }
   33%  { transform: translateX(0); }
 
-  34%  { transform: translateX(-30%); }
-  66%  { transform: translateX(-30%); }
+  34%  { transform: translateX(-25%); }
+  66%  { transform: translateX(-25%); }
 
-  67%  { transform: translateX(-60%); }
-  100%  { transform: translateX(-60%); }
+  67%  { transform: translateX(-55%); }
+  100%  { transform: translateX(-55%); }
 }
         
 }

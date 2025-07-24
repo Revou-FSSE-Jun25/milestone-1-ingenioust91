@@ -3,7 +3,7 @@
 You can view the live website [byingesalim.site](https://byingesalim.site/)
 
 ## Overview
-This is a portfolio website created by Inge Salim, build using HTML, deployed using githubn dan netlify.
+This is a portfolio website created by Inge Salim, build using HTML, deployed using github and netlify.
 
 ## Deployment
 **Steps to deploy this webisite via github:**
@@ -34,7 +34,7 @@ This is a portfolio website created by Inge Salim, build using HTML, deployed us
 9. Input your domain name, and select verify and then add domain
 ![Netlify-7](https://i.imgur.com/azegjSz.jpeg)
 ---------------------------------------------------------------------------------------
-To set up a custom domain, you have to point your domain name server to netlify first :
+**To set up a custom domain, you have to point your domain name server to netlify first :**
 1. Go to Domain on menu bar, select your domain that you've registered to netlify.
 2. Copy and paste netlify hostname to your Domain's DNS.
 ![Netlify-6](https://i.imgur.com/ZfvNs7h.jpeg)
@@ -74,8 +74,9 @@ A brief about who am i and what i can do for my clients. This section is made us
 ![Service-mobile](https://i.imgur.com/rKpjkXU.jpeg)
 
 ## Project
-A gallery of my latest project with descriptions. This section is made using flex box. Will be updated using slide show to showcase more projects.
+A gallery of my latest project with descriptions. This section is made using flex box. On mobile version, project section use animation to auto-slide every project.
 ![Project](https://i.imgur.com/gqdq2QI.jpeg)
+![Project-mobile](https://i.imgur.com/fAAROnN.jpeg)
 
 ## Contact & Footer
 A filling form to start a project with me. Every input is required.
