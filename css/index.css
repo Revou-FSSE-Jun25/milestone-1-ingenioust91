@@ -419,7 +419,7 @@ footer i {
 
     #project-section h2 {
         margin-bottom: 5%;
-        margin-top: 50%;
+        margin-top: 10dvh;
     }
 
     .project-flex {
