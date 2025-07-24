@@ -379,7 +379,7 @@ footer i {
     }
 
     .project-flex {
-        height: 50%;
+        height: 70%;
         justify-content: center;
         width: max-content; /* biar fleksibel */
         animation: slideX 12s linear infinite;
@@ -417,7 +417,7 @@ footer i {
     }
 
     .project-flex {
-        height: 50%;
+        height: 70%;
         /* row-gap: 2%; */
         justify-content: center;
     }
