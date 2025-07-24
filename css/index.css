@@ -367,18 +367,23 @@ footer i {
 
 /* css for project section */
     #project-section {
-        height: auto;
         overflow: hidden;
-        margin-top: 20dvh;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+    }
+
+    #project-section h2 {
+        margin-bottom: 5%;
     }
 
     .border-project {
         min-width: 30vw;
         max-width: 50vw;
+        height: 60%;
     }
 
     .project-flex {
-        height: auto;
         justify-content: center;
         width: max-content; /* biar fleksibel */
         animation: slideX 12s linear infinite;
@@ -393,14 +398,14 @@ footer i {
     }     */
 
     @keyframes slideX {
-  0%   { transform: translateX(0); }
-  33%  { transform: translateX(0); }
+        0%   { transform: translateX(0); }
+        33%  { transform: translateX(0); }
 
-  34%  { transform: translateX(-25%); }
-  66%  { transform: translateX(-25%); }
+        34%  { transform: translateX(-25%); }
+        66%  { transform: translateX(-25%); }
 
-  67%  { transform: translateX(-55%); }
-  100%  { transform: translateX(-55%); }
+        67%  { transform: translateX(-55%); }
+        100%  { transform: translateX(-55%); }
 }
         
 }
