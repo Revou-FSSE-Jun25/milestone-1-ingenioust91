@@ -387,7 +387,7 @@ footer i {
 
     #project-section h2 {
         margin-bottom: 5%;
-        margin-top: 10dvh;
+        margin-top: 10%;
     }
 
     /* .border-project:nth-child(2) {
@@ -419,11 +419,11 @@ footer i {
 
     #project-section h2 {
         margin-bottom: 5%;
-        margin-top: 10dvh;
+        margin-top: 10%;
     }
 
     .project-flex {
-        height: 50%;
+        height: 70%;
     }
 
 }
