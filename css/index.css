@@ -153,6 +153,10 @@
 
 /* ---------------CSS for service section--------------- */
     #service-section {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
         height: 100dvh;
         margin-left: 10%;
         margin-right: 10%;
@@ -354,11 +358,7 @@ footer i {
     }
 
 /* css for service section */
-    #service-section {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+
 
     .service-grid {
         display: grid;
