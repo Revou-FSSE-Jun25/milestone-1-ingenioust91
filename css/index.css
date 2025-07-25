@@ -1,10 +1,11 @@
     body{
-        font-family: montserrat; 
+        font-family: "montserrat", sans-serif; 
         margin: 0;
         padding: 0;
         background-image: url('https://raw.githubusercontent.com/Revou-FSSE-Jun25/milestone-1-ingenioust91/refs/heads/main/assets/background.png'); 
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: center;
     }
 
 /* -------------css for landing page------------*/
@@ -89,7 +90,7 @@
     h1 {
         text-align: center;
         font-size: clamp(1.8rem, 1.2rem + 3.2vw, 3.75rem);
-        font-weight: bold;
+        font-weight:bold;
     }
 
     header h2 {
@@ -365,6 +366,10 @@ footer i {
         grid-row: 1/2;
     }
 
+    #service-section h4 {
+        height: 10%;
+    }
+
 /* css for project section */
     #project-section {
         overflow: hidden;
@@ -383,6 +388,7 @@ footer i {
         justify-content: center;
         width: max-content; /* biar fleksibel */
         animation: slideX 12s linear infinite;
+        scroll-snap-type: x mandatory;
     }
 
     #project-section h2 {
@@ -412,6 +418,11 @@ footer i {
 }
 
 @media only screen and (max-width: 576px) {
+
+    #service-section h4 {
+        height: 10%;
+    }
+
 /* css for project section */
     .border-project {
         min-width: 40vw;
@@ -424,6 +435,7 @@ footer i {
 
     .project-flex {
         height: 70%;
+        scroll-snap-type: x mandatory;
     }
 
 }
