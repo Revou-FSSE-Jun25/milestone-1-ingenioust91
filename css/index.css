@@ -153,10 +153,10 @@
 
 /* ---------------CSS for service section--------------- */
     #service-section {
-        /* display: flex;
+        display: flex;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: center; */
+        justify-content: center;
         height: 100dvh;
         margin-left: 10%;
         margin-right: 10%;
@@ -363,15 +363,14 @@ footer i {
 
 /* css for service section */
     #service-section {
-        display: flex;
-        align-items: center;
-        justify-content: center;
         margin-left: 15%;
         margin-right: 15%;
     }
 
     .service-grid {
         display: grid;
+        margin-left: 10%;
+        margin-right: 10%;
         height: 55%;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-template-columns: 50% 50%;
@@ -421,6 +420,11 @@ footer i {
 }
 
 @media only screen and (max-width: 576px) {
+
+    #service-section {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
 
 /* css for project section */
     .border-project {
