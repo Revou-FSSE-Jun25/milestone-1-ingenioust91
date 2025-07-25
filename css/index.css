@@ -416,6 +416,12 @@ footer i {
         margin-bottom: 5%;
         margin-top: 10%;
     }
+
+/* css for contact section */
+    #contact-section {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
         
 }
 
