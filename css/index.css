@@ -255,7 +255,7 @@
     }
 
     .project-flex {
-        height: 70%; 
+        height: 100%; 
         display: flex;
         flex-wrap: wrap;
         gap: 2%;
@@ -390,28 +390,23 @@ footer i {
         max-width: 70vw;
     }
 
-    .project-flex {
+    .scrollbar {
         height: 70%;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+    }
+
+    .project-flex {
         display: flex;
         justify-content: center;
         width: max-content; /* biar fleksibel */
         animation: slideX 12s linear infinite;
-        overflow-x: scroll;
-        scroll-snap-type: x mandatory;
     }
 
     #project-section h2 {
         margin-bottom: 5%;
         margin-top: 10%;
     }
-
-    /* .border-project:nth-child(2) {
-        display: none;
-    }
-
-    .border-project:nth-child(3) {
-        display: none;
-    }     */
 
     @keyframes slideX {
         0%   { transform: translateX(0); }
@@ -436,12 +431,6 @@ footer i {
     #project-section h2 {
         margin-bottom: 5%;
         margin-top: 10%;
-    }
-
-    .project-flex {
-        height: 70%;
-        overflow-x: scroll;
-        scroll-snap-type: x mandatory;
     }
 
 }
